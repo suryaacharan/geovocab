@@ -23,7 +23,11 @@ Alternatively, the HTML file can also be modified and used to test.
 
 # Technologies Used
 **Languages** - Java, HTML, Javascript;
+
 **Deployment** - Docker, Tomcat;
+
 **Framework** - Spring boot;
+
 **Database** - MySQL;
+
 **Dependency Management** - Maven;
