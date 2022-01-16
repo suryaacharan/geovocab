@@ -93,7 +93,7 @@ public class GeoHashController {
 			String geovocab = new String();
 			if (!GeoUtils.isValidLatitude(lat))
 				return ResponseHandler.generateResponse("Invalid Latitude", HttpStatus.BAD_REQUEST, null);
-			if (!GeoUtils.isValidLatitude(longit))
+			if (!GeoUtils.isValidLongitude(longit))
 				return ResponseHandler.generateResponse("Invalid Longitude", HttpStatus.BAD_REQUEST, null);
 			String geoHash = Geohash.stringEncode(longit, lat, 9);
 			List<String> subHashes = Arrays.asList(geoHash.split("(?<=\\G.{3})"));
