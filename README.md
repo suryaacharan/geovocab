@@ -20,3 +20,10 @@ To start the services navigate to the Docker folder, and run <b>VocabMapper.bat 
 # How to test ?
 One can make use of the  [Postman collection](https://github.com/suryaacharan/geovocab/blob/dev/PostmanCollection/VocabMapper.postman_collection.json) included in the project, set the environment variables and test the APIs
 Alternatively, the HTML file can also be modified and used to test.
+
+# Technologies Used
+Languages - Java, HTML, Javascript
+Deployment - Docker, Tomcat
+Framework - Spring boot
+Database - MySQL
+Dependency Management - Maven
