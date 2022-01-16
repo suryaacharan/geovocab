@@ -1,4 +1,4 @@
-# Geovocab - Locate any place on earth with just 3 english words
+# GeoVocab - Locate any place on earth with just 3 english words
 Geovocab simplifies geographic coordinates into 3 simple english words. It makes use of REST APIs to bidirectionally translate geographic coordinates and english words.
 This project makes use of spring boot framework to build the REST APIs and package it into a WAR. Docker is used as the deployment platform.
 
